@@ -33,7 +33,10 @@ st.divider()
 matches_data= matches_data['Year'].dropna()
 years_int = [int(year) for year in matches_data]
 
-option = st.multiselect("Select",list(set(years_int)))
+option_year = st.multiselect("Select",list(set(years_int)))
 
+col1, col2 = st.columns(2)
 
+with col1:
+    st.write("hello")
 
