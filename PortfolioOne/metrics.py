@@ -6,7 +6,7 @@ def metric():
     matches  = "../PortfolioOne/data/WorldCupMatches.csv"
     players  = "../PortfolioOne/data/WorldCupPlayers.csv"
     worldcup = "../PortfolioOne/data/WorldCups.csv" 
-    all="../PortfolioOne/data/all.csv"
+   
 
     matches_data = pd.read_csv(matches)
     players_data = pd.read_csv(players)
